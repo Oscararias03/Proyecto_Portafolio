@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Colaborativo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .integrantes {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            width: 200px;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            background-color: #222;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portafolio Colaborativo</h1>
+    </header>
+
+    <main>
+        <h2>Bienvenidos</h2>
+        <p>Este proyecto ha sido desarrollado por dos integrantes como parte de la práctica colaborativa con Git y GitHub. 
+        Aquí encontrarás nuestros portafolios personales con información profesional, habilidades y proyectos destacados.</p>
+
+        <div class="integrantes">
+            <!-- Tarjeta Integrante 1 -->
+            <div class="card">
+                <img src="img/integrante1.png" alt="Foto Integrante 1">
+                <h3>Cesar Moreno</h3>
+                <a href="cesarMoreno.html">Ver perfil</a>
+            </div>
+
+            <!-- Tarjeta Integrante 2 -->
+            <div class="card">
+                <img src="img/integrante2.jpg" alt="Foto Integrante 2">
+                <h3>Oscar Arias</h3>
+                <a href="oscarArias.html">Ver perfil</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Portafolio Colaborativo | Proyecto Git y GitHub</p>
+    </footer>
+
+</body>
+</html>
